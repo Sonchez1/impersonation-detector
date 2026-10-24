@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.python-version
+
+# LaTeX build artifacts
+paper/*.log
+paper/*.blg
+paper/*.aux
+paper/*.bbl

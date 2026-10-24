@@ -1,0 +1,2421 @@
+[
+  {
+    "domain": "klinkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.9969,
+    "risk": 0.965,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "199.191.50.73"
+    ],
+    "res_has_mx": true,
+    "res_created": "2007-12-17T08:01:47Z",
+    "res_registrar": "April Sea Corporation Company Limited",
+    "res_error": null
+  },
+  {
+    "domain": "link3din.com",
+    "technique": "leet",
+    "source": "linkedin.com",
+    "score": 0.9119,
+    "risk": 0.965,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "L2 domain_leet_match",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.247.81.99"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedins.com",
+    "technique": "plural",
+    "source": "linkedin.com",
+    "score": 0.9969,
+    "risk": 0.965,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "13.248.169.48",
+      "76.223.54.146"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "llinkedin.com",
+    "technique": "repetition",
+    "source": "linkedin.com",
+    "score": 0.9969,
+    "risk": 0.965,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "L2 domain_close_typo",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2013-01-07T19:34:14Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "app-linkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "198.185.159.145"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "getlinkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "149.56.225.6"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "joinlinkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "13.248.169.48",
+      "76.223.54.146"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin-alerts.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "64.191.166.205"
+    ],
+    "res_has_mx": true,
+    "res_created": "2021-05-13T18:11:08Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin-support.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "192.168.16.113"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedincareers.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "13.248.169.48",
+      "76.223.54.146"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedinjobs.net",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2005-01-12T05:01:54Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedinsupport.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "mylinkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9544,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "olinkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.9969,
+    "risk": 0.95,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "L2 domain_close_typo",
+      "live: registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": false,
+    "res_created": "2024-10-21T17:35:42Z",
+    "res_registrar": "Media Elite Holdings Limited, S.A.",
+    "res_error": null
+  },
+  {
+    "domain": "jobs-linkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.17.143",
+      "172.67.176.213"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin-help.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "18.212.179.107"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin-jobs.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "20.50.64.14"
+    ],
+    "res_has_mx": false,
+    "res_created": "2023-07-07T19:31:44Z",
+    "res_registrar": "Dynadot Inc",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin-verify.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.75.89",
+      "172.67.217.160"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedinjobs.com",
+    "technique": "affix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": false,
+    "res_created": "2004-03-22T20:01:44Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "login-linkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.15.187",
+      "172.67.163.198"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "thelinkedin.com",
+    "technique": "prefix",
+    "source": "linkedin.com",
+    "score": 0.8697,
+    "risk": 0.9349,
+    "action": "block",
+    "reasons": [
+      "L2 domain_brand_affix",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "44.195.229.203",
+      "52.200.66.12"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "iinkedin.com",
+    "technique": "homoglyph",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.246"
+    ],
+    "res_has_mx": true,
+    "res_created": "2009-04-11T19:14:17Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "ilnkedin.com",
+    "technique": "transposition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.38.183",
+      "172.67.137.90"
+    ],
+    "res_has_mx": true,
+    "res_created": "2007-11-27T22:55:35Z",
+    "res_registrar": "TurnCommerce, Inc. DBA NameBright.com",
+    "res_error": null
+  },
+  {
+    "domain": "lenkedin.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.12.121",
+      "172.67.152.77"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "libnkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "162.4.84.236"
+    ],
+    "res_has_mx": true,
+    "res_created": "2023-06-25T08:47:58Z",
+    "res_registrar": "Dynadot Inc",
+    "res_error": null
+  },
+  {
+    "domain": "lihnkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "45.33.83.100",
+      "45.79.167.180",
+      "66.175.209.179",
+      "96.126.111.165"
+    ],
+    "res_has_mx": true,
+    "res_created": "2017-02-28T21:30:14Z",
+    "res_registrar": "Above.com Pty Ltd.",
+    "res_error": null
+  },
+  {
+    "domain": "lijkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.252"
+    ],
+    "res_has_mx": true,
+    "res_created": "2025-11-22T00:10:47Z",
+    "res_registrar": "Unstoppable Domains Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "lijnkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "216.245.213.77"
+    ],
+    "res_has_mx": true,
+    "res_created": "2020-02-28T19:49:22Z",
+    "res_registrar": "Media Elite Holdings Limited, S.A.",
+    "res_error": null
+  },
+  {
+    "domain": "likedin.com",
+    "technique": "omission",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "45.33.83.100",
+      "45.79.167.180",
+      "66.175.209.179",
+      "96.126.111.165"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "liknedin.com",
+    "technique": "transposition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "13.248.213.45",
+      "76.223.67.189"
+    ],
+    "res_has_mx": true,
+    "res_created": "2006-05-21T08:33:38Z",
+    "res_registrar": "Wild West Domains, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linedin.com",
+    "technique": "omission",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2004-09-25T05:59:46Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "liniedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.247.81.99"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linjedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "13.248.169.48",
+      "76.223.54.146"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linjkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.251"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkadin.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2006-10-01T21:30:14Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkddin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.8.25",
+      "172.67.156.181"
+    ],
+    "res_has_mx": true,
+    "res_created": "2015-05-15T18:25:35Z",
+    "res_registrar": "TurnCommerce, Inc. DBA NameBright.com",
+    "res_error": null
+  },
+  {
+    "domain": "linkdedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.242"
+    ],
+    "res_has_mx": true,
+    "res_created": "2005-06-16T09:26:50Z",
+    "res_registrar": "Name.com, Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkdein.com",
+    "technique": "transposition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.246"
+    ],
+    "res_has_mx": true,
+    "res_created": "2009-03-24T18:00:54Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linke-din.com",
+    "technique": "hyphenation",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "77.247.182.247"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linked-in.com",
+    "technique": "hyphenation",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedan.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "15.197.148.33",
+      "3.33.130.190"
+    ],
+    "res_has_mx": true,
+    "res_created": "2013-12-20T15:10:20Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkeddin.com",
+    "technique": "repetition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedi.com",
+    "technique": "omission",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.244"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedihn.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "38.177.157.102"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedkin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "13.248.169.48",
+      "76.223.54.146"
+    ],
+    "res_has_mx": true,
+    "res_created": "2008-04-02T00:11:53Z",
+    "res_registrar": "Nicreg LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkedn.com",
+    "technique": "omission",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2003-05-14T05:50:05Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedni.com",
+    "technique": "transposition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2009-11-11T19:41:38Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedoin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.247.81.99"
+    ],
+    "res_has_mx": true,
+    "res_created": "2022-05-01T18:19:21Z",
+    "res_registrar": "Key-Systems GmbH",
+    "res_error": null
+  },
+  {
+    "domain": "linkedon.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "185.7.252.220"
+    ],
+    "res_has_mx": true,
+    "res_created": "2005-04-27T03:15:20Z",
+    "res_registrar": "EuroDNS S.A.",
+    "res_error": null
+  },
+  {
+    "domain": "linkeduin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "154.218.50.247"
+    ],
+    "res_has_mx": true,
+    "res_created": "2026-06-04T13:24:43Z",
+    "res_registrar": "SevenX LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkeein.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.3.58",
+      "172.67.130.72"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkefdin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "172.65.211.209"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkeidn.com",
+    "technique": "transposition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkexin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "118.244.214.16"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkidin.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.251"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkkedin.com",
+    "technique": "repetition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkrdin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.247.81.99"
+    ],
+    "res_has_mx": true,
+    "res_created": "2007-01-02T07:13:17Z",
+    "res_registrar": "Tirupati Domains and Hosting Pvt Ltd.",
+    "res_error": null
+  },
+  {
+    "domain": "linkudin.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkwdin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.240"
+    ],
+    "res_has_mx": true,
+    "res_created": "2021-10-15T18:23:08Z",
+    "res_registrar": "Dynadot Inc",
+    "res_error": null
+  },
+  {
+    "domain": "linkwedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.247"
+    ],
+    "res_has_mx": true,
+    "res_created": "2009-10-08T03:45:17Z",
+    "res_registrar": "Above.com Pty Ltd.",
+    "res_error": null
+  },
+  {
+    "domain": "linledin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "208.91.196.105"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linnkedin.com",
+    "technique": "repetition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "108.174.10.24"
+    ],
+    "res_has_mx": true,
+    "res_created": "2005-10-20T08:36:16Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "lkinkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.239"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "lknkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.83.197",
+      "172.67.181.7"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "lnikedin.com",
+    "technique": "transposition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "15.197.204.56",
+      "3.33.243.145"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "lnkedin.com",
+    "technique": "omission",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "loinkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "208.91.196.105"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "lonkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "luinkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.247"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "lunkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "103.224.182.252"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "oinkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.9154,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "207.207.210.23",
+      "207.207.210.36",
+      "207.207.210.50"
+    ],
+    "res_has_mx": true,
+    "res_created": "2025-09-18T14:14:48Z",
+    "res_registrar": "Porkbun LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.careers",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2014-02-24T19:55:48.837Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.cc",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "170.33.12.185"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.click",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.co",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "150.171.22.12"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.help",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2014-11-12T19:15:55.0Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.info",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2004-08-10T04:50:35.498Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.jobs",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2007-10-05T14:40:11Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.me",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: resolves, mx",
+      "can send mail"
+    ],
+    "res_registered": false,
+    "res_addresses": [
+      "174.129.6.29",
+      "184.196.180.154"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.net",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "108.174.10.24"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.online",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2015-08-26T16:00:04.000Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.org",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx",
+      "can send mail"
+    ],
+    "res_registered": null,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.site",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2015-07-15T16:00:25.000Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.us",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: resolves, mx",
+      "can send mail"
+    ],
+    "res_registered": false,
+    "res_addresses": [
+      "108.174.10.24"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.xyz",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.9083,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": true,
+    "res_created": "2014-05-20T12:04:36.0Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "1inkedin.com",
+    "technique": "homoglyph",
+    "source": "linkedin.com",
+    "score": 0.6906,
+    "risk": 0.8917,
+    "action": "block",
+    "reasons": [
+      "L2 domain_skeleton_match",
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "185.53.179.128"
+    ],
+    "res_has_mx": true,
+    "res_created": "2026-01-22T12:11:06Z",
+    "res_registrar": "Dynadot Inc",
+    "res_error": null
+  },
+  {
+    "domain": "inkedin.com",
+    "technique": "omission",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.55.252",
+      "172.67.174.212"
+    ],
+    "res_has_mx": false,
+    "res_created": "2004-09-25T05:16:51Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "kinkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.73.218",
+      "172.67.149.235"
+    ],
+    "res_has_mx": false,
+    "res_created": "2005-04-10T18:13:48Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "l-inkedin.com",
+    "technique": "hyphenation",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "45.153.16.41"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "l1nkedin.com",
+    "technique": "leet",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "23.92.20.184"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "lankedin.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "216.150.1.193",
+      "216.150.16.193"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "libkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "23.92.212.229"
+    ],
+    "res_has_mx": false,
+    "res_created": "2007-06-15T18:22:55Z",
+    "res_registrar": "Media Elite Holdings Limited, S.A.",
+    "res_error": null
+  },
+  {
+    "domain": "lihkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.21.46.8",
+      "172.67.221.247"
+    ],
+    "res_has_mx": false,
+    "res_created": "2016-05-05T17:31:10Z",
+    "res_registrar": "Gname.com Pte. Ltd.",
+    "res_error": null
+  },
+  {
+    "domain": "limkedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "212.92.104.2"
+    ],
+    "res_has_mx": false,
+    "res_created": "2005-05-18T16:43:58Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linikedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "212.7.194.68"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linked1n.com",
+    "technique": "leet",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": false,
+    "res_created": "2018-04-11T10:48:24Z",
+    "res_registrar": "Amazon Registrar, Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkeden.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": false,
+    "res_created": "2010-12-02T19:51:16Z",
+    "res_registrar": "Epik LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkedib.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "52.20.84.62"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedibn.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "216.245.213.75"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedih.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "207.207.210.23",
+      "207.207.210.36",
+      "207.207.210.50"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkediin.com",
+    "technique": "repetition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "212.32.254.56"
+    ],
+    "res_has_mx": false,
+    "res_created": "2010-01-04T19:53:25Z",
+    "res_registrar": "eName Technology Co., Ltd.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedijn.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "216.245.213.74"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedim.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "104.143.9.210",
+      "104.143.9.211"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedkn.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "212.7.194.53"
+    ],
+    "res_has_mx": false,
+    "res_created": "2011-01-04T10:40:40Z",
+    "res_registrar": "Media Elite Holdings Limited, S.A.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedun.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": false,
+    "res_created": "2006-06-25T05:22:25Z",
+    "res_registrar": "NameSilo, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkeedin.com",
+    "technique": "repetition",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "45.33.83.100",
+      "45.79.167.180",
+      "66.175.209.179",
+      "96.126.111.165"
+    ],
+    "res_has_mx": false,
+    "res_created": "2006-10-06T04:52:18Z",
+    "res_registrar": "GoDaddy.com, LLC",
+    "res_error": null
+  },
+  {
+    "domain": "linkefin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "172.98.192.101"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkesdin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "138.252.208.117"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkodin.com",
+    "technique": "vowel_swap",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "44.195.229.203",
+      "52.200.66.12"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkredin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.7583,
+    "risk": 0.8791,
+    "action": "block",
+    "reasons": [
+      "L2 domain_close_typo",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "122.246.1.142"
+    ],
+    "res_has_mx": false,
+    "res_created": "2026-06-06T10:12:55Z",
+    "res_registrar": "DOMAIN NAME NETWORK PTY LTD",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.app",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.8691,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [],
+    "res_has_mx": false,
+    "res_created": "2018-03-30T16:52:25.828Z",
+    "res_registrar": "MarkMonitor Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "linkedin.top",
+    "technique": "tld_swap",
+    "source": "linkedin.com",
+    "score": 0.7381,
+    "risk": 0.8691,
+    "action": "block",
+    "reasons": [
+      "L2 domain_tld_swap",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "108.174.10.24"
+    ],
+    "res_has_mx": false,
+    "res_created": "2021-04-08T18:18:06.0Z",
+    "res_registrar": "MarkMonitor",
+    "res_error": null
+  },
+  {
+    "domain": "linkedın.com",
+    "technique": "homoglyph",
+    "source": "linkedin.com",
+    "score": 0.6906,
+    "risk": 0.8453,
+    "action": "watch",
+    "reasons": [
+      "L2 domain_skeleton_match",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "162.255.119.116"
+    ],
+    "res_has_mx": false,
+    "res_created": "2020-05-15T19:47:42Z",
+    "res_registrar": "NameCheap, Inc.",
+    "res_error": null
+  },
+  {
+    "domain": "lınkedin.com",
+    "technique": "homoglyph",
+    "source": "linkedin.com",
+    "score": 0.6906,
+    "risk": 0.8453,
+    "action": "watch",
+    "reasons": [
+      "L2 domain_skeleton_match",
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "54.165.87.188"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "limnkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.0603,
+    "risk": 0.6711,
+    "action": "watch",
+    "reasons": [
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "64.190.63.222"
+    ],
+    "res_has_mx": true,
+    "res_created": "2024-08-20T00:56:24Z",
+    "res_registrar": "OVH sas",
+    "res_error": null
+  },
+  {
+    "domain": "linmedin.com",
+    "technique": "replacement",
+    "source": "linkedin.com",
+    "score": 0.0603,
+    "risk": 0.6711,
+    "action": "watch",
+    "reasons": [
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "37.48.110.47"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linmkedin.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.0603,
+    "risk": 0.6711,
+    "action": "watch",
+    "reasons": [
+      "live: resolves, mx, registered",
+      "can send mail"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "162.4.84.236"
+    ],
+    "res_has_mx": true,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  },
+  {
+    "domain": "linkedimn.com",
+    "technique": "insertion",
+    "source": "linkedin.com",
+    "score": 0.0603,
+    "risk": 0.5301,
+    "action": "watch",
+    "reasons": [
+      "live: resolves, registered"
+    ],
+    "res_registered": true,
+    "res_addresses": [
+      "65.21.178.24"
+    ],
+    "res_has_mx": false,
+    "res_created": null,
+    "res_registrar": null,
+    "res_error": null
+  }
+]

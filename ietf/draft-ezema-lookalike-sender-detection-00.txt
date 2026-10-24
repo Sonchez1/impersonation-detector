@@ -1,0 +1,280 @@
+
+
+
+
+Network Working Group                                           S. Ezema
+Internet-Draft                                               Independent
+Intended status: Informational                           18 October 2026
+Expires: 21 April 2027
+
+
+ Considerations for Detecting Look-Alike Sender Identities in Platform
+                               Messaging
+               draft-ezema-lookalike-sender-detection-00
+
+Abstract
+
+   Users of consumer platforms -- job boards, marketplaces, education
+   and early-career services -- receive messages from other parties
+   inside the platform, where no enterprise mail gateway inspects them.
+   Attackers impersonate the platform's own brand and support staff, and
+   pose as recruiters or counterparties, using look-alike domains and
+   display names.  This document describes considerations for detecting
+   look-alike sender identities at the level of the individual message
+   and its sender, rather than at the domain-registration level.  It
+   records two concrete pitfalls observed in deployed libraries: Unicode
+   confusable "skeleton" equality alone does not catch all mixed-script
+   look-alikes, and several input validators accept host names
+   containing invisible format characters.  This document is
+   informational and specifies no protocol.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 21 April 2027.
+
+Copyright Notice
+
+   Copyright (c) 2026 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+
+
+
+Ezema                     Expires 21 April 2027                 [Page 1]
+
+Internet-Draft         Look-Alike Sender Detection          October 2026
+
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Terminology . . . . . . . . . . . . . . . . . . . . . . . . .   2
+   3.  Signals at the message and sender level . . . . . . . . . . .   3
+   4.  Pitfall 1: confusable skeleton equality is not enough . . . .   3
+   5.  Pitfall 2: invisible format characters survive validation . .   3
+   6.  Adversarial robustness  . . . . . . . . . . . . . . . . . . .   4
+   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
+   8.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+   9.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
+   10. Informative References  . . . . . . . . . . . . . . . . . . .   5
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
+
+1.  Introduction
+
+   Enterprise anti-phishing controls assume a mail gateway positioned
+   between the sender and the recipient.  A large and growing share of
+   impersonation and employment fraud reaches people who are contacted
+   _inside_ a consumer platform -- in in-app messages, notifications,
+   and platform-relayed email -- where that assumption does not hold
+   [IC3].  The exposed population skews toward students and early-career
+   users.
+
+   This document is a set of engineering considerations, not a protocol.
+   It describes signals a platform can compute about a single message
+   and its sender, and two specific correctness pitfalls that defeat
+   naive implementations.  Terminology: a "protected identity" is a
+   brand name, domain, or support handle the platform wishes to defend;
+   a "look-alike" is a sender identity visually or structurally
+   confusable with a protected identity.
+
+2.  Terminology
+
+   The key words "MUST", "SHOULD", and "MAY" in this document are to be
+   interpreted as described in BCP 14 [RFC2119] [RFC8174] when, and only
+   when, they appear in all capitals.  This document uses them
+   sparingly, as it is informational.
+
+
+
+
+
+
+
+Ezema                     Expires 21 April 2027                 [Page 2]
+
+Internet-Draft         Look-Alike Sender Detection          October 2026
+
+
+3.  Signals at the message and sender level
+
+   A detector operating without a mail gateway can still compute:
+
+   1.  Deterministic look-alike checks on the sender domain and on any
+       domain embedded in a link host: Unicode confusable skeleton
+       comparison [UTS39], mixed-script detection, bounded edit distance
+       to a protected domain, and detection of a protected or foreign
+       domain placed inside an attacker-controlled host.
+
+   2.  Sender-reputation features over the display name and address: a
+       protected brand token appearing in the local part of a non-
+       protected address, a brand display name on an unrelated domain,
+       affix and subdomain patterns, and "lure" tokens.
+
+   3.  Message-intent signals: a request to verify credentials, a
+       redirect away from the platform, or a claim to the platform's own
+       authority.  These are the step an attacker needs and a benign
+       sender rarely combines with a look-alike identity.
+
+   No single layer is sufficient; they are complementary, and a fused
+   decision outperforms any one of them.  An open-source reference
+   implementation of these signals exists [DETECTOR].
+
+4.  Pitfall 1: confusable skeleton equality is not enough
+
+   UTS-39 [UTS39] defines a "skeleton" transform for confusable
+   detection: two strings are confusable if their skeletons are equal.
+   Implementations that test skeleton _equality_ alone miss look-alikes
+   whose confusable characters map to a non-ASCII Latin prototype.  For
+   example, the prototype of U+03BA GREEK SMALL LETTER KAPPA is U+0138,
+   and the prototype of U+0442 CYRILLIC SMALL LETTER TE is U+1D1B: both
+   Latin, neither ASCII.  A brand spelled with such characters has a
+   skeleton that is not equal to the ASCII brand skeleton, so equality
+   does not fire.
+
+   Detectors SHOULD combine skeleton comparison with mixed-script
+   detection and a bounded edit distance between skeletons, rather than
+   relying on skeleton equality to a protected string.
+
+5.  Pitfall 2: invisible format characters survive validation
+
+   Host names and email domains that contain invisible Unicode format
+   characters -- for example U+00AD SOFT HYPHEN, U+200B ZERO WIDTH
+   SPACE, U+2060 WORD JOINER, U+FEFF -- are ignored or disallowed under
+   IDNA2008 [RFC5890] and UTS-46 processing, so such a string is not a
+   valid domain and visually collapses to a different real domain.  In a
+   survey of widely used validation libraries, several reported such
+
+
+
+Ezema                     Expires 21 April 2027                 [Page 3]
+
+Internet-Draft         Look-Alike Sender Detection          October 2026
+
+
+   host names as valid while preserving the invisible character in the
+   returned value, so downstream code received a look-alike as
+   validated.  Platforms SHOULD normalize host names with IDNA2008/
+   UTS-46 before any equality or allow-list check, and SHOULD reject
+   host labels that contain format (Cf) or default-ignorable code
+   points.
+
+6.  Adversarial robustness
+
+   Look-alike and intent signals degrade under cheap, label-preserving
+   transformations: a single confusable glyph, leetspeak, inserted
+   spacing, and machine paraphrase.  Normalization (confusable folding
+   and de-obfuscation) belongs in front of any cue- or token-based
+   classifier, because such a classifier sees a different string after a
+   confusable swap.  Detectors that incorporate a language model SHOULD
+   treat message text as untrusted and guard against prompt injection,
+   and SHOULD NOT allow a model verdict to override deterministic sender
+   evidence.
+
+7.  Security Considerations
+
+   This entire document concerns the detection of impersonation.  It
+   describes detection signals, not evasion techniques.  Deterministic
+   checks can produce false positives on legitimate senders that share
+   surface features (for example a university career office); a platform
+   SHOULD fuse sender facts with intent before taking a high-friction
+   action.  Reference data for confusable mappings [UTS39] changes
+   between Unicode versions and SHOULD be updated.
+
+8.  IANA Considerations
+
+   This document has no IANA actions.
+
+9.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119, March 1997,
+              <https://www.rfc-editor.org/info/rfc2119>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, May 2017,
+              <https://www.rfc-editor.org/info/rfc8174>.
+
+   [RFC5890]  Klensin, J., "Internationalized Domain Names for
+              Applications (IDNA): Definitions and Document Framework",
+              RFC 5890, August 2010,
+              <https://www.rfc-editor.org/info/rfc5890>.
+
+
+
+
+Ezema                     Expires 21 April 2027                 [Page 4]
+
+Internet-Draft         Look-Alike Sender Detection          October 2026
+
+
+   [UTS39]    The Unicode Consortium, "Unicode Technical Standard #39:
+              Unicode Security Mechanisms", 2025,
+              <https://www.unicode.org/reports/tr39/>.
+
+10.  Informative References
+
+   [IC3]      U.S. Federal Bureau of Investigation, IC3, "2025 Internet
+              Crime Report", 2026, <https://www.ic3.gov/AnnualReport/
+              Reports/2025_IC3Report.pdf>.
+
+   [DETECTOR] Ezema, S., "impersonation-detector: message- and sender-
+              level look-alike and impersonation detection", 2026,
+              <https://github.com/Sonchez1/impersonation-detector>.
+
+Author's Address
+
+   Sochima Ezema
+   Independent
+   Email: sochimaezema00@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ezema                     Expires 21 April 2027                 [Page 5]

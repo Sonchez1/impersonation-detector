@@ -1,0 +1,250 @@
+{
+  "full": {
+    "clean": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "homoglyph": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "zero_width": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "leet": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "spaced": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "synonym": {
+      "recall": 0.957,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 0.929
+      }
+    }
+  },
+  "no_confusable_fold": {
+    "clean": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "homoglyph": {
+      "recall": 0.652,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.3,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 0.929,
+        "support_impersonation": 0.429
+      }
+    },
+    "zero_width": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "leet": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "spaced": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "synonym": {
+      "recall": 0.957,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 0.929
+      }
+    }
+  },
+  "no_leet_despace_views": {
+    "clean": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "homoglyph": {
+      "recall": 0.957,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 0.875,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "zero_width": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "leet": {
+      "recall": 0.717,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.4,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 0.929,
+        "support_impersonation": 0.571
+      }
+    },
+    "spaced": {
+      "recall": 0.696,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.5,
+        "payment_redirect": 0.875,
+        "recruiter_scam": 0.929,
+        "support_impersonation": 0.5
+      }
+    },
+    "synonym": {
+      "recall": 0.957,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 0.929
+      }
+    }
+  },
+  "neither": {
+    "clean": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "homoglyph": {
+      "recall": 0.63,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.3,
+        "payment_redirect": 0.875,
+        "recruiter_scam": 0.929,
+        "support_impersonation": 0.429
+      }
+    },
+    "zero_width": {
+      "recall": 0.978,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 1.0
+      }
+    },
+    "leet": {
+      "recall": 0.717,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.4,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 0.929,
+        "support_impersonation": 0.571
+      }
+    },
+    "spaced": {
+      "recall": 0.696,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.5,
+        "payment_redirect": 0.875,
+        "recruiter_scam": 0.929,
+        "support_impersonation": 0.5
+      }
+    },
+    "synonym": {
+      "recall": 0.957,
+      "fpr": 0.0,
+      "per_class_recall": {
+        "credential_phish": 0.9,
+        "payment_redirect": 1.0,
+        "recruiter_scam": 1.0,
+        "support_impersonation": 0.929
+      }
+    }
+  }
+}

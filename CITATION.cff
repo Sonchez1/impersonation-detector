@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "impersonation-detector: layered detection of lookalike senders and support-team / recruiter impersonation for messaging platforms"
+message: "If you use this software or benchmark, please cite it."
+type: software
+authors:
+  - family-names: Ezema
+    given-names: Sochima
+version: 0.4.0
+date-released: 2026-10-23
+license: MIT
+repository-code: https://github.com/Sonchez1/impersonation-detector
+keywords:
+  - phishing
+  - impersonation
+  - homograph
+  - unicode confusables
+  - prompt injection
+  - benchmark

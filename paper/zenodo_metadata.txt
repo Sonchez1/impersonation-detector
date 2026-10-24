@@ -1,0 +1,17 @@
+=== ZENODO UPLOAD — copy-paste ===
+File to upload: ~/projects/impersonation-detector/paper/main.pdf
+Resource type:  Publication -> Preprint
+Publication date: (today)
+License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+Creators: Ezema, Sochima  |  affiliation: Independent researcher  |  add your ORCID
+
+TITLE:
+Message-Level Detection of Support-Team and Recruiter Impersonation on Consumer Platforms: A Layered Detector and Adversarial Benchmark
+
+DESCRIPTION (abstract): paste the abstract text (see paper or README).
+
+RELATED IDENTIFIERS (Add each as "Related works"):
+  - https://github.com/Sonchez1/impersonation-detector   relation: "is supplemented by" (Software)
+  - https://pypi.org/project/impersonation-detector/            relation: "is supplemented by" (Software)
+
+KEYWORDS: phishing, impersonation, IDNA, Unicode confusables, prompt injection, consumer platforms, employment scams
