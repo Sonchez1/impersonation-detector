@@ -13,3 +13,4 @@ paper/*.log
 paper/*.blg
 paper/*.aux
 paper/*.bbl
+paper/submission/

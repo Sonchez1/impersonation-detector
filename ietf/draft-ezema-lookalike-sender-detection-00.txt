@@ -4,8 +4,8 @@
 
 Network Working Group                                           S. Ezema
 Internet-Draft                                               Independent
-Intended status: Informational                           18 October 2026
-Expires: 21 April 2027
+Intended status: Informational                           27 October 2026
+Expires: 30 April 2027
 
 
  Considerations for Detecting Look-Alike Sender Identities in Platform
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 April 2027.
+   This Internet-Draft will expire on 30 April 2027.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Ezema                     Expires 21 April 2027                 [Page 1]
+Ezema                     Expires 30 April 2027                 [Page 1]
 
 Internet-Draft         Look-Alike Sender Detection          October 2026
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Ezema                     Expires 21 April 2027                 [Page 2]
+Ezema                     Expires 30 April 2027                 [Page 2]
 
 Internet-Draft         Look-Alike Sender Detection          October 2026
 
@@ -165,7 +165,7 @@ Internet-Draft         Look-Alike Sender Detection          October 2026
 
 
 
-Ezema                     Expires 21 April 2027                 [Page 3]
+Ezema                     Expires 30 April 2027                 [Page 3]
 
 Internet-Draft         Look-Alike Sender Detection          October 2026
 
@@ -221,7 +221,7 @@ Internet-Draft         Look-Alike Sender Detection          October 2026
 
 
 
-Ezema                     Expires 21 April 2027                 [Page 4]
+Ezema                     Expires 30 April 2027                 [Page 4]
 
 Internet-Draft         Look-Alike Sender Detection          October 2026
 
@@ -277,4 +277,4 @@ Author's Address
 
 
 
-Ezema                     Expires 21 April 2027                 [Page 5]
+Ezema                     Expires 30 April 2027                 [Page 5]
