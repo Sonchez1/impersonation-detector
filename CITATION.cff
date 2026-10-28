@@ -9,6 +9,8 @@ version: 0.4.0
 date-released: 2026-10-23
 license: MIT
 repository-code: https://github.com/Sonchez1/impersonation-detector
+doi: 10.5281/zenodo.23717675
+url: https://doi.org/10.5281/zenodo.23717675
 keywords:
   - phishing
   - impersonation
@@ -16,3 +18,14 @@ keywords:
   - unicode confusables
   - prompt injection
   - benchmark
+preferred-citation:
+  type: article
+  title: "Message-Level Detection of Support-Team and Recruiter Impersonation on Consumer Platforms: A Layered Detector and Adversarial Benchmark"
+  authors:
+    - family-names: Ezema
+      given-names: Sochima
+  year: 2026
+  month: 10
+  doi: 10.5281/zenodo.23716571
+  url: https://doi.org/10.5281/zenodo.23716571
+  notes: "Preprint, Zenodo."

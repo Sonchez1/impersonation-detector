@@ -1,6 +1,9 @@
 # impersonation-detector
 
 [![ci](https://github.com/Sonchez1/impersonation-detector/actions/workflows/ci.yml/badge.svg)](https://github.com/Sonchez1/impersonation-detector/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/impersonation-detector.svg)](https://pypi.org/project/impersonation-detector/)
+[![Paper DOI](https://img.shields.io/badge/paper-10.5281%2Fzenodo.23716571-blue)](https://doi.org/10.5281/zenodo.23716571)
+[![Software DOI](https://img.shields.io/badge/software-10.5281%2Fzenodo.23717675-blue)](https://doi.org/10.5281/zenodo.23717675)
 
 Layered detection of lookalike senders and **support-team / recruiter impersonation**
 in messages — built as middleware for platforms whose users are contacted by
@@ -8,6 +11,13 @@ strangers claiming an institutional role (job boards, campus networks, marketpla
 Zero runtime dependencies; an optional language model for Layer 3.
 
 **Status:** 0.4.0 — message detector (Layers 1–4 with Layer 2→3 fusion) plus the lookalike-domain and account-takeover legs, all benchmarked and tested.
+
+## Paper, archive and standards draft
+
+- **Preprint**: *Message-Level Detection of Support-Team and Recruiter Impersonation on Consumer Platforms: A Layered Detector and Adversarial Benchmark*. Zenodo, DOI [10.5281/zenodo.23716571](https://doi.org/10.5281/zenodo.23716571). Source in `paper/`.
+- **Software archive**: release v0.4.0 archived at Zenodo, DOI [10.5281/zenodo.23717675](https://doi.org/10.5281/zenodo.23717675).
+- **Internet-Draft**: [draft-ezema-lookalike-sender-detection-00](https://datatracker.ietf.org/doc/draft-ezema-lookalike-sender-detection/), Informational, independent submission. Source in `ietf/`.
+- **Consumer deployment**: the browser extension [Impersonation Guard](https://github.com/Sonchez1/impersonation-guard) ports this engine to TypeScript with a parity suite over the full benchmark.
 
 ## Why this exists
 
