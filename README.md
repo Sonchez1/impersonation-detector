@@ -17,7 +17,7 @@ Zero runtime dependencies; an optional language model for Layer 3.
 - **Preprint**: *Message-Level Detection of Support-Team and Recruiter Impersonation on Consumer Platforms: A Layered Detector and Adversarial Benchmark*. Zenodo, DOI [10.5281/zenodo.23716571](https://doi.org/10.5281/zenodo.23716571). Source in `paper/`.
 - **Software archive**: release v0.4.0 archived at Zenodo, DOI [10.5281/zenodo.23717675](https://doi.org/10.5281/zenodo.23717675).
 - **Internet-Draft**: [draft-ezema-lookalike-sender-detection-00](https://datatracker.ietf.org/doc/draft-ezema-lookalike-sender-detection/), Informational, independent submission. Source in `ietf/`.
-- **Consumer deployment**: the browser extension [Impersonation Guard](https://github.com/Sonchez1/impersonation-guard) ports this engine to TypeScript with a parity suite over the full benchmark.
+- **Consumer deployment**: the browser extension [Impersonation Guard](https://github.com/Sonchez1/impersonation-guard), published on the [Chrome Web Store](https://chromewebstore.google.com/detail/impersonation-guard/mebiagclmekccpgfhlpacdocfeppbhjn), ports this engine to TypeScript with a parity suite over the full benchmark.
 
 ## Why this exists
 
